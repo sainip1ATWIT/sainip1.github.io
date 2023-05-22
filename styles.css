@@ -202,4 +202,23 @@ body {
         width: 60%;
         height: fit-content;
     }
+    
+    .eboard-container {
+        display: grid;
+        justify-content: center;
+    }
+
+    .member-set {
+        display: grid;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .member {
+        height: fit-content;
+        width: 60%;
+        justify-self: center;
+    }
 }
